@@ -1,3 +1,12 @@
-p {
-    color: red;
+.navigation {
+    display: flex;
+}
+.body {
+    display: flex;
+}
+.introduction {
+    flex-basis: 40%;
+}
+.main-content {
+    felx-basis: 60%;
 }
