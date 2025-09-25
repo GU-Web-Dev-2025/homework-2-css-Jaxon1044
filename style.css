@@ -1,12 +1,21 @@
-.navigation {
+.nav {
     display: flex;
+    flex-direction: row;
+    background-color: lightcoral;
+    padding: 10px;
+}
+.nav a {
+    flex-grow: 1;
+    background-color: blanchedalmond;
+    text-align: center;
+    
 }
 .body {
     display: flex;
 }
-.introduction {
+.intro {
     flex-basis: 40%;
 }
-.main-content {
+.content {
     felx-basis: 60%;
 }
