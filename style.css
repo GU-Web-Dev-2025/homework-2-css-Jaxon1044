@@ -31,5 +31,8 @@
 table, td, th {
     /* Stylize tables to look nice. */
     border: 2px solid black;
-    /* The tables MUST have alternating colored rows */
+}
+/* The tables MUST have alternating colored rows */
+table tr:nth-child(even) {
+    background-color: rgb(207, 207, 207);
 }
