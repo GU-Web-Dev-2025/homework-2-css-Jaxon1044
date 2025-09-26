@@ -46,6 +46,6 @@ table tr:nth-child(even) {
 ol li:nth-child(even) img {
     float: right;
 }
-ol li:nth-child(odd) img {
+ol li:nth-child(odd) p {
     float: left;
 }
