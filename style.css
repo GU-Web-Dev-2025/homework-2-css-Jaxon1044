@@ -1,3 +1,9 @@
+/* 
+    Jaxon Froderberg
+    CPSC 332 Web Development
+    Homework 2
+    Last modified: Sep 25th, 2025
+*/
 * {
     color: rgb(243, 215, 122);
     font-size: large;
@@ -41,6 +47,7 @@ h2 {
     height: auto;
     border: 14px solid rgb(182, 146, 62);
     border-style: ridge;
+    margin: 20px;
 }
 .bar {
     background-color: rgb(182, 146, 62);
