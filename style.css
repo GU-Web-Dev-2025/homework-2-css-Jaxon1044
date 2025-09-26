@@ -28,6 +28,10 @@
     flex-basis: 70%;
     background-color: yellowgreen;
 }
+/* The core skills unordered list must be stylized */
+ul {
+
+}
 table, td, th {
     /* Stylize tables to look nice. */
     border: 2px solid black;
