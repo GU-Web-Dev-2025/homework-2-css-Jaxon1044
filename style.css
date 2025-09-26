@@ -25,6 +25,11 @@
 .content {
     flex-grow: 1;
     flex-shrink: 1;
-    felx-basis: 70%;
+    flex-basis: 70%;
     background-color: yellowgreen;
+}
+table, td, th {
+    /* Stylize tables to look nice. */
+    border: 2px solid black;
+    /* The tables MUST have alternating colored rows */
 }
