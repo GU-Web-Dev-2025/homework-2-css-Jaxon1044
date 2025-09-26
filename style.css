@@ -43,6 +43,9 @@ table, td, th {
 table tr:nth-child(even) {
     background-color: rgb(155, 48, 48);
 }
-ol li:nth-child(even) {
+ol li:nth-child(even) img {
     float: right;
+}
+ol li:nth-child(odd) img {
+    float: left;
 }
