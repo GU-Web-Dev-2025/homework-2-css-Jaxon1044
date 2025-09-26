@@ -1,5 +1,6 @@
 * {
-    color: white;
+    color: rgb(243, 215, 122);
+    font-size: large;
 }
 .nav {
     display: flex;
@@ -15,7 +16,6 @@
     flex-grow: 1;
     background-color: rgb(155, 48, 48);
     text-align: center;
-    
 }
 .body {
     display: flex;
@@ -29,29 +29,46 @@
     flex-basis: 30%;
     background-color: rgb(155, 48, 48);
 }
+h2 {
+    font-size: 20px;
+}
 .intro img {
     width: 400px;
     height: auto;
 
+}
+.bar {
+    background-color: white;
+    height: 8px;
 }
 .content {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 70%;
     background-color: rgb(73, 12, 12);
+    padding: 50px;
 }
 /* The core skills unordered list must be stylized */
 ul {
+    list-style-type: square;
+}
 
+table {
+    border: 2px solid rgb(182, 146, 62);
+    text-align: center;
 }
-table, td, th {
-    /* Stylize tables to look nice. */
-    border: 2px solid black;
+th {
+    background-color: rgb(224, 87, 87);
+    height: 30px;
 }
-/* The tables MUST have alternating colored rows */
+td {
+    height: 80px;
+}
 table tr:nth-child(even) {
     background-color: rgb(155, 48, 48);
 }
+
+
 ol li:nth-child(even) img {
     float: right;
 }
