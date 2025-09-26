@@ -16,19 +16,20 @@
 </head>
 
 <body>
-    
+    <!-- Navigation section -->
     <nav class="nav">
-        <!-- Add CSS-styled logo -->
         <img src="propeller.jpg" alt="Profile page logo">
 
-        <!-- Navigation links -->
         <a href="#intro">Introduction</a>
         <a href="#summary">My career summary</a>
         <a href="#qualifications">My qualifications and education</a>
         <a href="#interests">My perosnal interests</a>
     </nav>
 
+    <!-- The body holds seperate flex containers for the sections -->
     <div class="body">
+
+        <!-- Introduction section -->
         <div id="intro" class="intro">
             <!-- Profile image -->
             <img src="profile_pic.jpg" alt="Profile picture of Jaxon Forderberg">
@@ -36,7 +37,6 @@
             <!-- Name and profession -->
             <h2>Jaxon Froderberg | Professional Person</h2>
 
-            <!-- Summary paragraph. distinctly seperate -->
             <p class="bar"></p>
             <p>
                 Hello Internet! My name is Jaxon. Lemmie tell you a bit more about myself:
@@ -48,20 +48,16 @@
                 asset to your team.
             </p>
             <p class="bar"></p>
-
-            <!-- Move unordered skills list to main area. -->
-            <!-- Move section links to navigation. -->
         </div>
 
+        <!-- Content holds the merged summary, qualifications, and interests tabs -->
         <div class="content">
 
             <!-- Career Summary section -->
             <div id="summary" class="summary">
-                <!-- This is the summary page -->
                 <h2>Career summary and work experience</h2>
 
                 <table>
-                    <!-- <caption><strong>Work Experience</strong></caption> -->
                     <tr>
                         <th>Work Experience</th>
                         <th>Role</th>
@@ -109,6 +105,7 @@
                 <li>Expert craftsman with all things cardboard</li>
             </ul>
 
+            <!-- Qualifications section -->
             <div id="qualifications" class="qualifications">
                 <h2>Education and qualifications</h2>
 
@@ -158,6 +155,7 @@
             </div>
             <!-- End of qualifications -->
 
+            <!-- Interests section -->
             <div id="interests" class="interests">
                 <h2>interests and Hobbies</h2>
 
@@ -193,13 +191,10 @@
                     </li>
                 </ol>
             </div>
-
+            <!-- End of Interests section -->
         </div>
-
+        <!-- End of main content -->
     </div>
-    
-    <!-- Includes at least 1 section link (fragment) to another section/page in your website -->
-    <a href="#introduction">Back to top</a>
     
 </body>
 

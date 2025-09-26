@@ -30,7 +30,6 @@
     padding: 10px;
 }
 .intro {
-    /* It should be noted: items will not shrink together. */
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 30%;
